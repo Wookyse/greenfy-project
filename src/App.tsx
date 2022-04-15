@@ -1,11 +1,11 @@
-import './App.css';
+import { Login } from './Pages/Login';
 
 function App() {
-    return (
-        <div>
-            guilherme arrombado
-        </div>
-    );
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
 
 export default App;
