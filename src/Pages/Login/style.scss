@@ -15,6 +15,11 @@
   margin: 0 auto;
   border-radius: 18px;
 
+  p a {
+    color: #828282;
+    text-decoration: none;
+  }
+
   @media(max-width: 600px) {
     width: 21rem;
   }

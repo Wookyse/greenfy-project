@@ -8,13 +8,13 @@ export const InputLogin = () => {
         <div className="mail-ico-field">
           <GroupMail />
         </div>
-        <input type="text" placeholder="Institutional email" />
+        <input required type="mail" placeholder="Institutional email" />
       </div>
       <div className="input-password-field">
         <div className="pass-ico-field">
           <GroupPass />
         </div>
-        <input type="text" placeholder="Password" />
+        <input type="password" required placeholder="Password" />
       </div>
     </div>
   );
