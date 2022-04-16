@@ -14,6 +14,10 @@
   height: 30.625rem;
   margin: 0 auto;
   border-radius: 18px;
+
+  @media(max-width: 600px) {
+    width: 21rem;
+  }
 }
 
 .content-form {
