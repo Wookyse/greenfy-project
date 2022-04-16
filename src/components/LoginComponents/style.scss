@@ -1,0 +1,76 @@
+.title-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .sign-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  h1 {
+    font-size: 60px;
+    font-family: Fontastique;
+  }
+
+  color:#4DBD49;
+
+  span {
+    color: black;
+  }
+
+  p {
+    color: #828282;
+  }
+}
+
+.input-login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  input {
+    background: #FFFFFF;
+    color: #828282;
+    border: none;
+    border-bottom: 1px #4DBD49 solid;
+    margin: 0 auto;
+    width: 360px;
+    height: 41px;
+  }
+}
+
+.button-login {
+  display: flex;
+  justify-content: center;
+
+  Button {
+    background-color: #4DBD49;
+    color: white;
+    margin-top: 20px;
+    width: 360px;
+    height: 41px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  Button:hover {
+    background-color: #555555;
+    color: white;
+  }
+}
+
+.forgot-password {
+  display: flex;
+  justify-content: center;
+  color: #828282;
+
+  a {
+    color: #828282;
+  }
+}

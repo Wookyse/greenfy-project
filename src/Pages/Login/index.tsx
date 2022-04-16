@@ -1,10 +1,20 @@
-import React from "react";
-import "./style.scss";
+import { TitleLogin } from '../../components/LoginComponents/TitleLogin';
+import { InputLogin } from '../../components/LoginComponents/InputLogin';
+import './style.scss';
+import { ButtonLogin } from '../../components/LoginComponents/ButtonLogin';
+import { ForgotPassWord } from '../../components/LoginComponents/ForgotPassword';
 
 export const Login = () => {
-    return (
-        <div>
-            <h1>cornojoao</h1>
-        </div>
-    );
+  return (
+    <div className="background-login">
+      <div className="background-form">
+        <form className="content-form" action="">
+          <TitleLogin />
+          <InputLogin />
+          <ButtonLogin />
+          <ForgotPassWord />
+        </form>
+      </div>
+    </div>
+  );
 };
