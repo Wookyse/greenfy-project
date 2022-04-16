@@ -9,6 +9,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+
+    @media(max-width: 310px) {
+      font-size: 12px;
+      font-weight: 400;
+    }
   }
 
   h1 {
@@ -32,7 +37,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 30px;
 
   .input-email-field {
     border-bottom: 1px #4DBD49 solid;
@@ -42,7 +47,7 @@
     padding-left: 10px;
 
     @media(max-width: 600px) {
-      width: 17.5rem;
+      width: 70vw;
     }
   }
 
@@ -54,7 +59,7 @@
     padding-left: 10px;
 
     @media(max-width: 600px) {
-      width: 17.5rem;
+      width: 70vw;
     }
   }
 
@@ -89,12 +94,16 @@
 .button-login {
   display: flex;
   justify-content: center;
-
+  margin-top: 50px;
+  height: 42px;
 
   Button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
     background-color: #4DBD49;
     color: white;
-    margin-top: 20px;
     width: 360px;
     height: 41px;
     border-radius: 12px;
@@ -103,12 +112,12 @@
     transition-duration: 0.4s;
 
     @media(max-width: 600px) {
-      width: 17.5rem;
+      width: 70vw;
     }
   }
 
   Button:hover {
-    background-color: #555555;
+    background-color: #828282;
     color: white;
   }
 }
@@ -116,10 +125,17 @@
 .forgot-password {
   display: flex;
   justify-content: flex-end;
-  padding-right: 20px;
+  padding-right: 50px;
   padding-top: 10px;
 
+  @media(max-width: 600px) {
+    padding-right: 10%;
+  }
+
+
   a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
     color: #828282;
     text-decoration: none;
   }
