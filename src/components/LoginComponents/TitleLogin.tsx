@@ -1,5 +1,5 @@
 import './style.scss';
-import { Greenfy } from '../../assets/icons/GreenFy.svg';
+import { ReactComponent as Greenfy } from '../../assets/icons/GreenFy.svg';
 export const TitleLogin = () => {
   return (
     <div className="title-login">

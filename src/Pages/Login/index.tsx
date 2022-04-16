@@ -11,8 +11,8 @@ export const Login = () => {
         <form className="content-form" action="">
           <TitleLogin />
           <InputLogin />
-          <ButtonLogin />
           <ForgotPassWord />
+          <ButtonLogin />
         </form>
       </div>
     </div>
