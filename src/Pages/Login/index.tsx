@@ -22,9 +22,10 @@ export const Login = () => {
           <ForgotPassWord />
           <Button name="Login" />
         </form>
-        <p>
+        <div className="link-create-account">
           <a href="?">How to have an account</a>
-        </p>
+          <div className="gg-arrow-right"></div>
+        </div>
       </div>
     </div>
   );

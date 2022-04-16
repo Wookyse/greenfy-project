@@ -15,13 +15,59 @@
   margin: 0 auto;
   border-radius: 18px;
 
-  p a {
-    color: #828282;
-    text-decoration: none;
+  .link-create-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 43px;
+    gap: 5px;
+
+    a {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      color: #828282;
+      text-decoration: none;
+    }
+
+    .gg-arrow-right {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      transform: scale(var(--ggs, 1));
+      width: 22px;
+      height: 22px;
+      color: #828282;
+    }
+
+    .gg-arrow-right::after,
+    .gg-arrow-right::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      right: 3px
+    }
+
+    .gg-arrow-right::after {
+      width: 8px;
+      height: 8px;
+      border-top: 2px solid;
+      border-right: 2px solid;
+      transform: rotate(45deg);
+      bottom: 7px
+    }
+
+    .gg-arrow-right::before {
+      width: 16px;
+      height: 2px;
+      bottom: 10px;
+      background: currentColor
+    }
+
   }
 
   @media(max-width: 600px) {
-    width: 21rem;
+    width: 85vw;
   }
 }
 
