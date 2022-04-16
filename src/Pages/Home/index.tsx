@@ -1,10 +1,11 @@
 import React from "react";
+import { Header } from "../../components/Header/Index";
 import "./style.scss";
 
 export const Home = () => {
     return (
         <div>
-            <h1>cornojoao</h1>
+            <Header></Header>
         </div>
     );
 };
