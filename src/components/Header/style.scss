@@ -1,0 +1,88 @@
+.headerContainer {
+    padding: 0 30px;
+    height: 80px;
+
+    .headerContent {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .headerLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: inherit;
+        width: 190px;
+
+        svg {
+            width: 160px;
+        }
+    }
+
+    .headerMenu {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+            color: #828282;
+            font-family: 'Roboto';
+            font-size: 26px;
+            font-weight: 500;
+        }
+
+        li {
+            display: inline;
+        }
+    }
+
+    .headerUserInfo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .headerUserIcon {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .headerUserName {
+            display: grid;
+            height: 40px;
+            grid-template-rows: 20px 20px;
+            grid-template-columns: repeat(2, auto);
+            row-gap: 5px;
+
+            h3 {
+                grid-row-start: 1;
+                color: #828282;
+                font-weight: 600;
+                height: 20px;
+                padding: 0;
+                margin: 0;
+            }
+
+            h4 {
+                grid-row-start: 2;
+                color: #828282;
+                font-weight: 16px;
+                font-weight: 400;
+                height: 20px;
+                padding: 0;
+                margin: 0;
+            }
+
+            .headerArrowIcon {
+                grid-column-start: 2;
+                grid-row-start: 2;
+                margin-left: 5px;
+            }
+        }
+    }
+}
