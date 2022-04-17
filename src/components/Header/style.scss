@@ -2,6 +2,7 @@
     padding: 0 30px;
     height: 80px;
 
+
     .headerContent {
         height: 80px;
         display: flex;
@@ -17,7 +18,7 @@
         width: 190px;
 
         svg {
-            width: 160px;
+            width: 130px;
         }
     }
 
@@ -29,17 +30,22 @@
         display: flex;
         justify-content: space-around;
 
+
         a {
             text-decoration: none;
             color: #828282;
             font-family: 'Roboto';
-            font-size: 26px;
+            font-size: 22px;
             font-weight: 500;
         }
 
         li {
             display: inline;
+
+
         }
+
+
     }
 
     .headerUserInfo {
@@ -48,22 +54,24 @@
         align-items: center;
 
         .headerUserIcon {
-            height: 40px;
             margin-right: 10px;
+
+            svg {
+                height: 30px;
+            }
         }
 
         .headerUserName {
             display: grid;
             height: 40px;
-            grid-template-rows: 20px 20px;
+            grid-template-rows: 15px 15px;
             grid-template-columns: repeat(2, auto);
             row-gap: 5px;
 
             h3 {
                 grid-row-start: 1;
                 color: #828282;
-                font-weight: 600;
-                height: 20px;
+                font-weight: 500;
                 padding: 0;
                 margin: 0;
             }
@@ -71,7 +79,7 @@
             h4 {
                 grid-row-start: 2;
                 color: #828282;
-                font-weight: 16px;
+                font-size: 14px;
                 font-weight: 400;
                 height: 20px;
                 padding: 0;
@@ -83,6 +91,39 @@
                 grid-row-start: 2;
                 margin-left: 5px;
             }
+        }
+    }
+
+    .content-submenu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .submenu_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 21px;
+        padding: 25px 0px 0px 0px;
+        position: absolute;
+        width: 201px;
+        height: 242px;
+        background: #4DBD49;
+        border-radius: 18px;
+
+
+
+        li:hover {
+            cursor: pointer;
+        }
+
+        a {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 20px;
+            color: #FFFFFF;
         }
     }
 }

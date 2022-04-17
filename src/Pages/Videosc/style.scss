@@ -1,0 +1,59 @@
+.backgroud-videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0px 30px 60px 60px;
+  gap: 3rem;
+
+  @media (max-width:1000px) {
+    padding: 0px 0px 60px 0px;
+    margin: 0 30px;
+  }
+
+  iframe {
+    height: 14rem;
+    width: 28vw;
+    border-radius: 18px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+    @media (max-width:1000px) {
+      height: 10rem;
+    }
+  }
+}
+
+.p-center {
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 41px;
+  color: #4DBD49;
+}
+
+
+.recommendations-videos {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .videos-area-content-reccomend {
+    display: flex;
+    flex-direction: row;
+    gap: 2.75rem;
+  }
+}
+
+.greenfyProduction-videos {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .videos-area-content-greenfy {
+    display: flex;
+    flex-direction: row;
+    gap: 2.75rem;
+  }
+}
