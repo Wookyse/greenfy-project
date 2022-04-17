@@ -27,9 +27,7 @@ export const Header = () => {
                 <a href="/home">Home</a>
               </li>
               <li className="content-submenu">
-                <a href="?" onClick={handleMenuClick}>
-                  Content
-                </a>
+                <a onClick={handleMenuClick}>Content</a>
                 {submenu ? (
                   <ul className="submenu_header">
                     <li>
