@@ -1,0 +1,47 @@
+.homeConatiner {
+    padding-top: 15px;
+
+    .homeContent1 {
+        padding: 60px;
+
+        .homeContentBack1 {
+            background-color: #F3FBF3;
+            width: 640px;
+            height: 234px;
+            padding-right: 15px;
+            border-radius: 18px;
+            display: flex;
+            flex-direction: row;
+
+            svg {
+                margin-right: 15px;
+            }
+
+            .homeContentText1 {
+                padding-top: 10px;
+
+                h1 {
+                    font-size: 14px;
+                    color: #828282;
+                    font-weight: 600;
+                }
+
+                h2 {
+                    font-size: 12px;
+                    color: #828282;
+                    font-weight: 400;
+                }
+
+                p {
+                    font-size: 12px;
+                    color: #828282;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+    .homeContent2 {
+        padding-left: 60px;
+    }
+}
