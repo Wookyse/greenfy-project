@@ -1,18 +1,18 @@
-import React from "react";
-import { Header } from "../../components/Header/Index";
-import { TextContainer } from "../../components/TextComponent/Index";
+import React from 'react';
+import { Header } from '../../components/Header/Index';
+import { TextContainer } from '../../components/TextComponent/Index';
 import './style.scss';
 
 export const Articles = () => {
-    return (
-        <div className="artContainer">
-            <Header></Header>
-            <div className="artContent">
-                <div className="artComponent1">
-                    <TextContainer
-                        title="A Implementação De Práticas Sustentáveis Na Empresa Dell Computadores"
-                        subTitle="Ti Verde"
-                        mainText="Com o desenvolvimento tecnológico cada vez mais rápido e constante fez com
+  return (
+    <div className="artContainer">
+      <Header></Header>
+      <div className="artContent">
+        <div className="artComponent1">
+          <TextContainer
+            title="A Implementação De Práticas Sustentáveis Na Empresa Dell Computadores"
+            subTitle="Ti Verde"
+            mainText="Com o desenvolvimento tecnológico cada vez mais rápido e constante fez com
                     que o consumo de insumos seja cada vez mais constante. Neste contexto, o trabalho aqui
                     apresentado, terá como o tema principal o conceito de transformação na área da tecnologia da
                     informação em relação a sua própria sustentabilidade. Tendo em vista o constante
@@ -48,26 +48,28 @@ export const Articles = () => {
                     diariamente, desde a economia de energia, mantendo os equipamentos desligados quando
                     distanciam-se de suas mesas até o momento de enviar a documentação eletrônica para as
                     empresas..."
-                        autor="Herrmann, William Faller"
-                        date="November, 15 - 2018"></TextContainer>
-                </div>
+            autor="Herrmann, William Faller"
+            date="November, 15 - 2018"
+          ></TextContainer>
+        </div>
 
-                <div className="artComponent2">
-                    <TextContainer
-                        title="Eficiência Energética"
-                        subTitle="Ti Verde"
-                        mainText="A Tecnologia da Informação tem o objetivo de prover e desenvolver soluções, aplicações e serviços capazes de atender a constante evolução que acontece em todo o mundo. Desenvolver soluções, tem sido a máxima que gera a prioridade em alcançar o elevado poder de disponibilidade, escalabilidade e processamento, com baixo custo para todos. Atualmente encontramos diversas discussões, trazendo como objetivos a diminuição do consumo de energia, menor produção de calor e economia de espaço físico na infraestrutura, que são considerados fator chave para que sejam alcançados os objetivos.
+        <div className="artComponent2">
+          <TextContainer
+            title="Eficiência Energética"
+            subTitle="Ti Verde"
+            mainText="A Tecnologia da Informação tem o objetivo de prover e desenvolver soluções, aplicações e serviços capazes de atender a constante evolução que acontece em todo o mundo. Desenvolver soluções, tem sido a máxima que gera a prioridade em alcançar o elevado poder de disponibilidade, escalabilidade e processamento, com baixo custo para todos. Atualmente encontramos diversas discussões, trazendo como objetivos a diminuição do consumo de energia, menor produção de calor e economia de espaço físico na infraestrutura, que são considerados fator chave para que sejam alcançados os objetivos.
 
                         A TI Verde visa colaborar com toda a sociedade buscando ter mais acesso a eficiência e no que diz respeito à energia elétrica, impelindo desde a utilização do e-commerce, os sistemas inteligentes de produção e a gerência energética, chegando até as mudanças nos modelos de comunicação e gestão de projetos, tornando-os mais eficientes. A busca por diminuir o consumo de energia, bem como, a aplicação de inovações tecnologias traz cada vez mais a redução do consumo total de energia para as organizações de todo o mundo..."
-                        autor="ZEFERINO, André Ferreira"
-                        date="June, 30 - 2017"></TextContainer>
-                </div>
+            autor="ZEFERINO, André Ferreira"
+            date="June, 30 - 2017"
+          ></TextContainer>
+        </div>
 
-                <div className="artComponent5">
-                    <TextContainer
-                        title="A Importância Da Reciclagem Do Lixo Eletrônico"
-                        subTitle="Lixo Eletrônico E Meio Ambiente"
-                        mainText="As palavras tecnologia e lixo aparentemente não tem muita relação entre si, porém são
+        <div className="artComponent5">
+          <TextContainer
+            title="A Importância Da Reciclagem Do Lixo Eletrônico"
+            subTitle="Lixo Eletrônico E Meio Ambiente"
+            mainText="As palavras tecnologia e lixo aparentemente não tem muita relação entre si, porém são
                         associadas por um grave problema ambiental: o descarte de lixo eletrônico. Todo material
                         eletrônico que compramos para uso, um dia caba sendo substituído. O descarte geralmente
                         é feito de forma incorreta, sendo apenas destinado para o lixo comum. Ocorre que, a
@@ -79,15 +81,16 @@ export const Articles = () => {
                         abordam o tema de preservação do meio ambiente e a importância da reciclagem, pois se
                         faz necessário a conscientização da reciclagem e o descarte devido do lixo eletrônico, pois
                         cada vez mais a população esta consumista e..."
-                        autor="SANTOS, Renata Rodrigues Silva"
-                        date="October, 11 - 2018"></TextContainer>
-                </div>
+            autor="SANTOS, Renata Rodrigues Silva"
+            date="October, 11 - 2018"
+          ></TextContainer>
+        </div>
 
-                <div className="artComponent3">
-                    <TextContainer
-                        title=" Um Estudo Sobre Os Principais Benefícios Obtidos Por Empresas Que Adotaram Ti Verde"
-                        subTitle="Sustentabilidade E Tecnologia Da Informação"
-                        mainText="As questões envolvendo os problemas ambientais, o esgotamento de recursos naturais
+        <div className="artComponent3">
+          <TextContainer
+            title=" Um Estudo Sobre Os Principais Benefícios Obtidos Por Empresas Que Adotaram Ti Verde"
+            subTitle="Sustentabilidade E Tecnologia Da Informação"
+            mainText="As questões envolvendo os problemas ambientais, o esgotamento de recursos naturais
                         renováveis e o crescimento econômico desvinculado do desenvolvimento sustentável
                         tornaram-se uma grande preocupação mundial nos últimos anos. Em pesquisa realizada pela
                         ONU quanto aos assuntos dominantes no futuro, o desenvolvimento sustentável aparece como
@@ -118,15 +121,21 @@ export const Articles = () => {
                         comerciais) têm demonstrado inúmeras vantagens que as empresas obtêm adotando TI Verde.
                         Desse modo, objetivou-se neste estudo identificar e analisar os principais benefícios que a
                         adoção de práticas de TI Verde pode proporcionar às organizações..."
-                        autor="Herrmann, William Faller"
-                        date="November, 15 - 2018"></TextContainer>
-                </div>
+            autor="Herrmann, William Faller"
+            date="November, 15 - 2018"
+          ></TextContainer>
+        </div>
 
-                <div className="artComponent4">
-                    <TextContainer
-                        title="O Descarte De Resíduos Eletroeletrônicos Pelas Empresas De Assistência Técnica Sob A Perspectiva Do Conceito De Green It"
-                        subTitle="Inovação e Sustentabilidade em Diferentes Setores"
-                        mainText="O que fazer com os equipamentos eletroeletrônicos quando estes chegam ao final da
+        <div className="artComponent4">
+          <a
+            href="/home/article/read"
+            title="Clique aqui para ler o artigo completo"
+            className="open-full-art"
+          >
+            <TextContainer
+              title="O Descarte De Resíduos Eletroeletrônicos Pelas Empresas De Assistência Técnica Sob A Perspectiva Do Conceito De Green It"
+              subTitle="Inovação e Sustentabilidade em Diferentes Setores"
+              mainText="O que fazer com os equipamentos eletroeletrônicos quando estes chegam ao final da
                         sua vida útil? De acordo Santos e Silva (2011) a maior parte dos usuários residenciais alega
                         não ter informações sobre o que fazer com seus resíduos eletrônicos. Em razão da redução dos
                         ciclos de vida dos bens de consumo, este questionamento é realizado por todos os tipos de
@@ -159,10 +168,12 @@ export const Articles = () => {
                         perspectiva teórica, os conceitos de Sustentabilidade têm apresentado um relevante
                         crescimento constante nas últimas décadas. Todavia, no setor de Tecnologia da Informação
                         (TI), essa percepção só começou a..."
-                        autor="Alves, Nilo Barcelos"
-                        date="September, 25 - 2013"></TextContainer>
-                </div>
-            </div >
-        </div >
-    );
+              autor="Alves, Nilo Barcelos"
+              date="September, 25 - 2013"
+            ></TextContainer>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 };
