@@ -24,35 +24,53 @@ export const Header = () => {
           <nav>
             <ul className="headerMenu">
               <li>
-                <a href="/home">Home</a>
+                <a href="/home" className="color-green">
+                  Home
+                </a>
               </li>
               <li className="content-submenu">
-                <a onClick={handleMenuClick}>Content</a>
+                <a onClick={handleMenuClick} className="color-green">
+                  Content
+                </a>
                 {submenu ? (
-                  <ul className="submenu_header">
+                  <ul className="submenu_header fromLeft">
                     <li>
-                      <a href="#">Articles</a>
+                      <a href="#" className="fromLeft">
+                        Articles
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Journalistic</a>
+                      <a href="#" className="fromLeft">
+                        Journalistic
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Recommendations</a>
+                      <a href="#" className="fromLeft">
+                        Recommendations
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Tips</a>
+                      <a href="#" className="fromLeft">
+                        Tips
+                      </a>
                     </li>
                     <li>
-                      <a href="/home/videos">Videos</a>
+                      <a href="/home/videos" className="fromLeft">
+                        Videos
+                      </a>
                     </li>
                   </ul>
                 ) : null}
               </li>
               <li>
-                <a href="#">Courses</a>
+                <a href="#" className="color-green">
+                  Courses
+                </a>
               </li>
               <li>
-                <a href="#">Support</a>
+                <a href="#" className="color-green">
+                  Support
+                </a>
               </li>
             </ul>
           </nav>
