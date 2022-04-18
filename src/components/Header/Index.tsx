@@ -35,7 +35,7 @@ export const Header = () => {
                 {submenu ? (
                   <ul className="submenu_header fromLeft">
                     <li>
-                      <a href="#" className="fromLeft">
+                      <a href="/home/article" className="fromLeft">
                         Articles
                       </a>
                     </li>

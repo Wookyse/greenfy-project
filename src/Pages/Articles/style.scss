@@ -1,0 +1,43 @@
+.artContainer {
+    padding-top: 15px;
+
+    .artContent {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 30px 420px 420px 420px 420px;
+        grid-template-rows: 360px;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    .artComponent1 {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .artComponent2 {
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+
+    .artComponent3 {
+        grid-column-start: 4;
+        grid-row-start: 1;
+    }
+
+    .artComponent4 {
+        grid-column-start: 5;
+        grid-row-start: 1;
+    }
+
+    .artComponent5 {
+        grid-column-start: 3;
+        grid-row-start: 2;
+        margin-top: 5px;
+    }
+
+    .artComponent6 {
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+}
