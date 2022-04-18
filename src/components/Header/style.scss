@@ -2,7 +2,6 @@
     padding: 0 30px;
     height: 80px;
 
-
     .headerContent {
         height: 80px;
         display: flex;
@@ -38,15 +37,16 @@
             font-size: 22px;
             font-weight: 500;
             cursor: pointer;
+            transition-duration: 0.3s;
+        }
+
+        .color-green:hover {
+            color: #4DBD49;
         }
 
         li {
             display: inline;
-
-
         }
-
-
     }
 
     .headerUserInfo {
@@ -115,11 +115,22 @@
         height: 235px;
         background: #4DBD49;
         border-radius: 18px;
-
-
+        transition-duration: 4s;
 
         li:hover {
             cursor: pointer;
+        }
+
+        li:after {
+            display: block;
+            content: '';
+            border-bottom: solid 3px #FFFFFF;
+            transform: scaleX(0);
+            transition: transform 250ms ease-in-out;
+        }
+
+        li:hover:after {
+            transform: scaleX(1);
         }
 
         a {
@@ -129,4 +140,6 @@
             color: #FFFFFF;
         }
     }
+
+
 }
