@@ -145,6 +145,56 @@
         grid-column-start: 4;
     }
 
+    .porra {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        background-color: #F3FBF3;
+        width: 640px;
+        height: 234px;
+        padding-right: 15px;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: row;
+
+        svg {
+            height: 234px;
+            width: 350px;
+            border-radius: 18px;
+        }
+
+        .trofArea {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 60px;
+
+            svg {
+                width: 69.67px;
+                height: 66.33px;
+            }
+
+            h1 {
+                padding: 0;
+                margin: 0;
+                font-size: 18px;
+                color: #4DBD49;
+                font-weight: 600;
+            }
+
+            h2 {
+                padding: 0;
+                margin: 0;
+                font-size: 16px;
+                color: #828282;
+                font-weight: 400;
+            }
+
+        }
+
+
+    }
+
     .homeContent7 {
         grid-column-start: 4;
         grid-row-start: 1;
@@ -156,9 +206,10 @@
         display: flex;
         flex-direction: row;
 
-        img {
-            margin-right: 15px;
-        }
+        // svg {
+        //     height: 234px;
+        //     width: 350px;
+        // }
 
         .homeContentText1 {
             padding-top: 10px;

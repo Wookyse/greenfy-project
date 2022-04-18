@@ -3,9 +3,10 @@ import { Header } from "../../components/Header/Index";
 import { TextContainer } from "../../components/TextComponent/Index";
 import "./style.scss";
 import { ReactComponent as Articleimg } from '../../assets/img/homeArticle.svg';
-import { ReactComponent as JoeyMills } from '../../assets/icon/JoeyMills.svg';
+import { ReactComponent as UsuarioImg } from '../../assets/icons/real.svg';
 import { ReactComponent as LampIcon } from '../../assets/icons/lamp.svg';
 import { ReactComponent as WarningIcon } from '../../assets/icons/warning.svg';
+import { ReactComponent as Trof } from '../../assets/icons/Vector.svg';
 
 export const Home = () => {
     return (
@@ -87,11 +88,13 @@ export const Home = () => {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     ></iframe>
                 </div>
-                <JoeyMills />
-
-                <div className="homeContent7">
-
-                    teste
+                <div className="porra">
+                    <UsuarioImg></UsuarioImg>
+                    <div className="trofArea">
+                        <Trof />
+                        <h1> Usuário do mês</h1>
+                        <h2>Joey Mills</h2>
+                    </div>
                 </div>
                 <div className="homeContent8">
                     <TextContainer
@@ -131,6 +134,6 @@ export const Home = () => {
                         date="September, 25 - 2013"></TextContainer>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
