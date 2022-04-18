@@ -4,10 +4,18 @@
     .homeContents {
         margin-top: 40px;
         display: grid;
-        grid-template-columns: 30px 420px 1fr;
+        grid-template-columns: 30px 420px 200px 640px;
         grid-template-rows: 238px 198px 200px;
         row-gap: 30px;
         column-gap: 30px;
+
+
+    }
+
+    .homeContenvideos-area-content-reccomendt {
+        display: grid;
+        grid-row-start: 1;
+        grid-column-start: 3;
     }
 
     .homeContent1 {
@@ -46,6 +54,26 @@
                     color: #828282;
                     text-align: justify;
                 }
+
+                .rest {
+                    p {
+                        line-height: 0;
+                    }
+
+                    .autor {
+                        text-align: right;
+                        width: 100%;
+                        color: #4DBD49;
+                        font-weight: 500;
+                        padding-top: 15px;
+                    }
+
+                    .date {
+                        text-align: right;
+                        width: 100%;
+                        padding-top: 3px;
+                    }
+                }
             }
         }
     }
@@ -78,6 +106,7 @@
 
     .homeContent4 {
         grid-row-start: 3;
+        grid-column-start: 3;
         background-color: #F3FBF3;
         height: 200px;
         width: 205px;
@@ -100,5 +129,113 @@
             font-weight: 600;
             margin-top: 10px;
         }
+    }
+
+    iframe {
+        border-radius: 15px;
+    }
+
+    .homeContent5 {
+        grid-row-start: 2;
+        grid-column-start: 4;
+    }
+
+    .homeContent6 {
+        grid-row-start: 3;
+        grid-column-start: 4;
+    }
+
+    .porra {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        background-color: #F3FBF3;
+        width: 640px;
+        height: 234px;
+        padding-right: 15px;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: row;
+
+        svg {
+            height: 234px;
+            width: 350px;
+            border-radius: 18px;
+        }
+
+        .trofArea {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 60px;
+
+            svg {
+                width: 69.67px;
+                height: 66.33px;
+            }
+
+            h1 {
+                padding: 0;
+                margin: 0;
+                font-size: 18px;
+                color: #4DBD49;
+                font-weight: 600;
+            }
+
+            h2 {
+                padding: 0;
+                margin: 0;
+                font-size: 16px;
+                color: #828282;
+                font-weight: 400;
+            }
+
+        }
+
+
+    }
+
+    .homeContent7 {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        background-color: #F3FBF3;
+        width: 640px;
+        height: 234px;
+        padding-right: 15px;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: row;
+
+        // svg {
+        //     height: 234px;
+        //     width: 350px;
+        // }
+
+        .homeContentText1 {
+            padding-top: 10px;
+
+            h1 {
+                font-size: 14px;
+                color: #828282;
+                font-weight: 600;
+            }
+
+            h2 {
+                font-size: 12px;
+                color: #828282;
+                font-weight: 400;
+            }
+
+            p {
+                font-size: 12px;
+                color: #828282;
+                text-align: justify;
+            }
+        }
+    }
+
+    .homeContent8 {
+        grid-column-start: 5;
+        grid-row-start: 1;
     }
 }

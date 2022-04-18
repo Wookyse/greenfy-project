@@ -3,8 +3,10 @@ import { Header } from "../../components/Header/Index";
 import { TextContainer } from "../../components/TextComponent/Index";
 import "./style.scss";
 import { ReactComponent as Articleimg } from '../../assets/img/homeArticle.svg';
+import { ReactComponent as UsuarioImg } from '../../assets/icons/real.svg';
 import { ReactComponent as LampIcon } from '../../assets/icons/lamp.svg';
 import { ReactComponent as WarningIcon } from '../../assets/icons/warning.svg';
+import { ReactComponent as Trof } from '../../assets/icons/Vector.svg';
 
 export const Home = () => {
     return (
@@ -25,7 +27,10 @@ export const Home = () => {
                                 preocupem em encontrar novas formas de energia renovável e de aprimorar os processos
                                 de reciclagem existentes para preservas a natureza (FREITAS, 2009).
                             </p>
-                            <p></p>
+                            <div className="rest">
+                                <p className="autor">SANTOS, Renata Rodrigues Silva</p>
+                                <p className="date">October, 11 - 2018</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -59,13 +64,76 @@ export const Home = () => {
                     <p>Inclua computação verde nas discussões de RFP com fornecedores</p>
                 </div>
 
-                <div className="homeContent3 homeContent4">
+                <div className="homeContent4">
                     <WarningIcon />
                     <p className="warningTitle">Descarte de Eltronicos</p>
                     <p>26/04/2022</p>
                     <p>LabCom</p>
                 </div>
+                <div className="homeContent5">
+                    <iframe
+                        width="640px"
+                        height="200"
+                        src="https://www.youtube.com/embed/Thgcdciy3hU"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                </div>
+                <div className="homeContent6">
+                    <iframe
+                        width="640px"
+                        height="200"
+                        src="https://www.youtube.com/embed/Thgcdciy3hU"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                </div>
+                <div className="porra">
+                    <UsuarioImg></UsuarioImg>
+                    <div className="trofArea">
+                        <Trof />
+                        <h1> Usuário do mês</h1>
+                        <h2>Joey Mills</h2>
+                    </div>
+                </div>
+                <div className="homeContent8">
+                    <TextContainer
+                        title="O Descarte De Resíduos Eletroeletrônicos Pelas Empresas De Assistência Técnica Sob A Perspectiva Do Conceito De Green It"
+                        subTitle="Inovação e Sustentabilidade em Diferentes Setores"
+                        mainText="O que fazer com os equipamentos eletroeletrônicos quando estes chegam ao final da
+                        sua vida útil? De acordo Santos e Silva (2011) a maior parte dos usuários residenciais alega
+                        não ter informações sobre o que fazer com seus resíduos eletrônicos. Em razão da redução dos
+                        ciclos de vida dos bens de consumo, este questionamento é realizado por todos os tipos de
+                        consumidores, desde o doméstico até as organizações, sobretudo quando se trata de
+                        equipamentos eletroeletrônicos. Este assunto torna-se mais relevante ainda quando são
+                        discutidas as implicações socioambientais decorrentes das práticas incorretas de descarte
+                        deste tipo de resíduo (WILLIAMS et al., 2008). Estas informações também estão presentes no
+                        relatório da UNESCO (2008), pois determinados processos de reciclagem, inclusive de
+                        trituração, moagem, queima e derretimento de componentes, podem liberar gases nocivos ou
+                        pó que, quando emitidos ou lixiviados no solo, podem ter impactos nocivos à saúde e ao
+                        ambiente. Praticadas principalmente em alguns países em desenvolvimento, as redes
+                        informais de resíduos eletrônicos empregam técnicas como a queima a céu aberto, sem
+                        adequados aparatos de segurança necessários para proteger a saúde dos trabalhadores
+                        envolvidos.
+                        De acordo com as pesquisas do CEMPRE (2010), frequentemente os usuários
+                        residenciais tratam os resíduos de equipamentos eletroeletrônicos (REEE) como “lixo seco”.
+                        Mesmo considerando que esta prática não seja a mais indicada (uma vez que os REEE
+                        deveriam ter uma destinação especial) apenas 8% dos municípios brasileiros haviam
+                        implantado processos de coleta seletiva. Portanto, a falta de alternativas de descarte para os
+                        REEE representa um problema constante para os cidadãos.
+                        Na perspectiva deste usuário, a constatação de que um equipamento eletroeletrônico
+                        está danificado ou em final de vida útil, frequentemente, é feita pelas organizações que
+                        realizam a Assistência Técnica destes produtos. Quando o conserto do equipamento não é
+                        financeiramente interessante para o usuário, este opta por não realizar o conserto e, muitas
+                        vezes, não retorna para resgatar o seu material. A partir deste momento que as Assistências
+                        Técnicas passam a cumprir um papel importante no processo de descarte dos REEE, tendo em
+                        vista que os equipamentos são abandonados em seus estabelecimentos.
+                        Este fato empírico é apenas um dos exemplos envolvendo a complexidade da adoção
+                        de práticas relacionadas à Sustentabilidade."
+                        autor="Alves, Nilo Barcelos"
+                        date="September, 25 - 2013"></TextContainer>
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
