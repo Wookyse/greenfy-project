@@ -1,44 +1,46 @@
-import React from "react";
-import { Header } from "../../components/Header/Index";
-import { TextContainer } from "../../components/TextComponent/Index";
-import "./style.scss";
+import React from 'react';
+import { Header } from '../../components/Header/Index';
+import { TextContainer } from '../../components/TextComponent/Index';
+import './style.scss';
 import { ReactComponent as Articleimg } from '../../assets/img/homeArticle.svg';
-import { ReactComponent as UsuarioImg } from '../../assets/icons/real.svg';
 import { ReactComponent as LampIcon } from '../../assets/icons/lamp.svg';
 import { ReactComponent as WarningIcon } from '../../assets/icons/warning.svg';
 import { ReactComponent as Trof } from '../../assets/icons/Vector.svg';
 
 export const Home = () => {
-    return (
-        <div className="homeConatiner">
-            <Header></Header>
-            <div className="homeContents">
-                <div className="homeContent1">
-                    <div className="homeContentBack1">
-                        <div className="homeContentImg1">
-                            <Articleimg />
-                        </div>
-                        <div className="homeContentText1">
-                            <h1>Lixo Eletrônico E Meio Ambiente</h1>
-                            <h2>A Importância Da Reciclgem Do Lixo Eletrônico</h2>
-                            <p>Nunca o tema meio ambiente foi tão oportuno para ser abordado em pesquisas e
-                                para desenvolver soluções e projetos que contemple seu sustento e preservação. O
-                                crescimento da população mundial faz com que os cientistas e profissionais da área se
-                                preocupem em encontrar novas formas de energia renovável e de aprimorar os processos
-                                de reciclagem existentes para preservas a natureza (FREITAS, 2009).
-                            </p>
-                            <div className="rest">
-                                <p className="autor">SANTOS, Renata Rodrigues Silva</p>
-                                <p className="date">October, 11 - 2018</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="homeContent2">
-                    <TextContainer
-                        title="A Implementação De Práticas Sustentáveis Na Empresa Dell"
-                        subTitle="TI Verde"
-                        mainText="A prática sustentável tem sido pauta cada vez mais corriqueira em qualquer
+  return (
+    <div className="homeConatiner">
+      <Header></Header>
+      <div className="homeContents">
+        <div className="homeContent1">
+          <div className="homeContentBack1">
+            <div className="homeContentImg1">
+              <Articleimg />
+            </div>
+            <div className="homeContentText1">
+              <h1>Lixo Eletrônico E Meio Ambiente</h1>
+              <h2>A Importância Da Reciclgem Do Lixo Eletrônico</h2>
+              <p>
+                Nunca o tema meio ambiente foi tão oportuno para ser abordado em
+                pesquisas e para desenvolver soluções e projetos que contemple
+                seu sustento e preservação. O crescimento da população mundial
+                faz com que os cientistas e profissionais da área se preocupem
+                em encontrar novas formas de energia renovável e de aprimorar os
+                processos de reciclagem existentes para preservas a natureza
+                (FREITAS, 2009).
+              </p>
+              <div className="rest">
+                <p className="autor">SANTOS, Renata Rodrigues Silva</p>
+                <p className="date">October, 11 - 2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="homeContent2">
+          <TextContainer
+            title="A Implementação De Práticas Sustentáveis Na Empresa Dell"
+            subTitle="TI Verde"
+            mainText="A prática sustentável tem sido pauta cada vez mais corriqueira em qualquer
                         ambiente, obviamente, não seria diferente dentro da TI; devido ao seu enorme crescimento,
                         verifica-se a necessidade de nos preocuparmos cada vez mais com a sustentabilidade; Tendo
                         em vista o surgimento de preocupações ambientais.
@@ -55,52 +57,54 @@ export const Home = () => {
                         Dado estas informações, desenvolvi esta pesquisa que lhes demonstrara que
                         pequenas atitudes, junto aos funcionários das empresas, são fundamentais para a boa
                         implementações de pensamentos ecológicos dentro da área de TI..."
-                        autor="Herrmann, William Faller"
-                        date="November, 15 - 2018"></TextContainer>
-                </div>
+            autor="Herrmann, William Faller"
+            date="November, 15 - 2018"
+          ></TextContainer>
+        </div>
 
-                <div className="homeContent3">
-                    <LampIcon />
-                    <p>Inclua computação verde nas discussões de RFP com fornecedores</p>
-                </div>
+        <div className="homeContent3">
+          <LampIcon />
+          <p>Inclua computação verde nas discussões de RFP com fornecedores</p>
+        </div>
 
-                <div className="homeContent4">
-                    <WarningIcon />
-                    <p className="warningTitle">Descarte de Eltronicos</p>
-                    <p>26/04/2022</p>
-                    <p>LabCom</p>
-                </div>
-                <div className="homeContent5">
-                    <iframe
-                        width="640px"
-                        height="200"
-                        src="https://www.youtube.com/embed/Thgcdciy3hU"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    ></iframe>
-                </div>
-                <div className="homeContent6">
-                    <iframe
-                        width="640px"
-                        height="200"
-                        src="https://www.youtube.com/embed/Thgcdciy3hU"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    ></iframe>
-                </div>
-                <div className="porra">
-                    <UsuarioImg></UsuarioImg>
-                    <div className="trofArea">
-                        <Trof />
-                        <h1> Usuário do mês</h1>
-                        <h2>Joey Mills</h2>
-                    </div>
-                </div>
-                <div className="homeContent8">
-                    <TextContainer
-                        title="O Descarte De Resíduos Eletroeletrônicos Pelas Empresas De Assistência Técnica Sob A Perspectiva Do Conceito De Green It"
-                        subTitle="Inovação e Sustentabilidade em Diferentes Setores"
-                        mainText="O que fazer com os equipamentos eletroeletrônicos quando estes chegam ao final da
+        <div className="homeContent4">
+          <WarningIcon />
+          <p className="warningTitle">Descarte de Eltronicos</p>
+          <p>26/04/2022</p>
+          <p>LabCom</p>
+        </div>
+        <div className="homeContent5">
+          <iframe
+            width="640px"
+            height="200"
+            src="https://www.youtube.com/embed/Thgcdciy3hU"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe>
+        </div>
+        <div className="homeContent6">
+          <iframe
+            width="640px"
+            height="200"
+            src="https://www.youtube.com/embed/Thgcdciy3hU"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe>
+        </div>
+        <div className="img-user">
+          <img src={require('../../assets/icons/joeyUser.png')} alt="" />
+
+          <div className="trofArea">
+            <Trof />
+            <h1> Usuário do mês</h1>
+            <h2>Joey Mills</h2>
+          </div>
+        </div>
+        <div className="homeContent8">
+          <TextContainer
+            title="O Descarte De Resíduos Eletroeletrônicos Pelas Empresas De Assistência Técnica Sob A Perspectiva Do Conceito De Green It"
+            subTitle="Inovação e Sustentabilidade em Diferentes Setores"
+            mainText="O que fazer com os equipamentos eletroeletrônicos quando estes chegam ao final da
                         sua vida útil? De acordo Santos e Silva (2011) a maior parte dos usuários residenciais alega
                         não ter informações sobre o que fazer com seus resíduos eletrônicos. Em razão da redução dos
                         ciclos de vida dos bens de consumo, este questionamento é realizado por todos os tipos de
@@ -130,10 +134,11 @@ export const Home = () => {
                         vista que os equipamentos são abandonados em seus estabelecimentos.
                         Este fato empírico é apenas um dos exemplos envolvendo a complexidade da adoção
                         de práticas relacionadas à Sustentabilidade."
-                        autor="Alves, Nilo Barcelos"
-                        date="September, 25 - 2013"></TextContainer>
-                </div>
-            </div>
-        </div >
-    );
+            autor="Alves, Nilo Barcelos"
+            date="September, 25 - 2013"
+          ></TextContainer>
+        </div>
+      </div>
+    </div>
+  );
 };
