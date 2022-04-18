@@ -2,6 +2,7 @@
     padding: 0 30px;
     height: 80px;
 
+
     .headerContent {
         height: 80px;
         display: flex;
@@ -29,17 +30,23 @@
         display: flex;
         justify-content: space-around;
 
+
         a {
             text-decoration: none;
             color: #828282;
             font-family: 'Roboto';
             font-size: 22px;
             font-weight: 500;
+            cursor: pointer;
         }
 
         li {
             display: inline;
+
+
         }
+
+
     }
 
     .headerUserInfo {
@@ -85,6 +92,41 @@
                 grid-row-start: 2;
                 margin-left: 5px;
             }
+        }
+    }
+
+    .content-submenu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .submenu_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -60px;
+        gap: 21px;
+        margin-top: 20px;
+        padding: 25px 0px 0px 0px;
+        position: absolute;
+        width: 201px;
+        height: 235px;
+        background: #4DBD49;
+        border-radius: 18px;
+
+
+
+        li:hover {
+            cursor: pointer;
+        }
+
+        a {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 20px;
+            color: #FFFFFF;
         }
     }
 }
